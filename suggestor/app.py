@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from .models import song_model, to_list
 
 
-df = pd.read_csv('suggestor/edited_data_v2.csv')
+df = pd.read_csv('suggestor/US.csv')
 
 def create_app():
     app = Flask(__name__)
