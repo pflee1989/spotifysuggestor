@@ -2,15 +2,15 @@
 [Website](https://codasong.herokuapp.com)
 
 ## Description
-This app helps users to find and visualize songs that fit their personal taste. This uses a model to recommend list of songs based on a song input.
+This app is a practice of using vectorized analysis to recommend songs per spotify. We appreciate all the feedback. 
 
 ## Built With
 * Python 3
 
 ## Authors
-1. [Josh Carlisle](http://github.com)
-2. [Jennifer Faith](http://github.com)
-3. [Joan Villar](http://github.com)
+1. [Trevor Dewalt](https://github.com/TrevorDewalt)
+2. [Philip Lee](https://github.com/pflee1989)
+3. [Joel Hoover](https://github.com/jihoover77)
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.

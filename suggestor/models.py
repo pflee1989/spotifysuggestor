@@ -8,7 +8,7 @@ def song_model(input):
     """
     Nearest Neighbors Model for song suggestions
     """
-    df = pd.read_csv('suggestor/edited_data_v2.csv')
+    df = pd.read_csv('suggestor/US.csv')
     # adding direct url to data set by adding url prefix and id
     url = 'http://open.spotify.com/track/' + df['id']
     df['url'] = url
