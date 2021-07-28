@@ -4,13 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 pandas = "*"
-jupyter = "*"
-unidecode = "*"
-flask = "*"
+numpy = "*"
 scikit-learn = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+jinja2 = "*"
+jupyter = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 python-dotenv = "*"
+unidecode = "*"
 
 [dev-packages]
 
