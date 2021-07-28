@@ -1,0 +1,1 @@
+web: gunicorn suggestor:APP -t 120

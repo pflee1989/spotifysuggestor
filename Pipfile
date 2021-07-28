@@ -4,10 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter = "*"
+numpy = "*"
 pandas = "*"
+jupyter = "*"
+unidecode = "*"
+flask = "*"
+scikit-learn = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"

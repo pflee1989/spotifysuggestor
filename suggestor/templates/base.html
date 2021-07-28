@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+      </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css"/>
+  </head>
+
+<div class="login">
+  <header>
+  <div class="logo">
+  <a href="/"><img src="static/images/App_Logo.jpg" style="max-width:200px;height:auto;"></a></div>
+    <nav class="menu"> 
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+    </nav>
+  </header>
+  <div class="container">
+  <body>
+      {% block body %}{% endblock %}
+  </body>
+  </div>
+</div>
+</html>
