@@ -1,6 +1,6 @@
 body {
     background-size: cover;
-    background-image: url("/static/images/Mohegan-Sun-Arena-1.jpg");
+    background-image: url("/static/images/pic01.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
     margin-bottom: 5px;
     padding: 1px;
     text-align: center;
-    color: rgb(0, 97, 167);
+    color: rgb(251, 252, 253);
   }
   h2 {
     font-family: 'Open Sans', sans-serif;
@@ -86,7 +86,7 @@ body {
     margin-bottom: 5px;
     padding: 1px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 253, 253);
   }
   h3 {
     font-family: 'Open Sans', sans-serif;
@@ -95,25 +95,28 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+    color: rgb(254, 255, 255)
   }
   p {
     font-family: 'Open Sans', sans-serif;
     width: auto;
     word-wrap: break-word;
+    color: rgb(253, 253, 253);
   }
   .login {
-    background-color: rgba(255, 255, 255, 0.70); 
-    backdrop-filter: blur(10px);
+    background-color: rgba(248, 239, 239, 0); 
+    backdrop-filter: blur(35px);
     padding: 20px;
     border-radius: 5px;
     text-align: center;
     margin: 50px auto;
-    margin-top: 150px;
+    margin-top: 100px;
     max-width: 30%;
     box-shadow: 5px 5px 10px;
   }
   .container {
-    margin-top: 200px;
+    margin-top: 50px;
+    text-align: center;
   }
   .songsubmit {
     margin: 50px auto;
@@ -172,16 +175,19 @@ body {
   }
   .menu {
     float: right;
-    margin-top: 90px;
+    margin-top: 0px;
+    position:relative;
+    top:5px;
     background: transparent;
     display: block;
   }
   .menu a {
     font-family: 'Open Sans', sans-serif;
-    padding: 15px;
+    padding: 5px;
+    top:0px;
     margin-right: 25px;
     background: transparent;
-    color:#004AAD;
+    color:#eceef1;
     text-decoration: none;
     display:inline-block;
   }
@@ -199,7 +205,7 @@ body {
   }
 
 .headshot {
-    width: 200px;
-    height: 220px;
+    width: 195px;
+    height: 210px;
 }
 

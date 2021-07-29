@@ -1,10 +1,10 @@
 body {
     background-size: cover;
-    background-image: url("/static/images/Mohegan_Sun.jpg");
+    background-image: url("/static/images/pic01.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #a1dbbb;
+    background-color: #f1f5f3;
     margin:auto;
     padding: 0;
   }
@@ -16,7 +16,7 @@ body {
     margin-bottom: 5px;
     padding: 1px;
     text-align: center;
-    color: rgb(0, 97, 167);
+    color: rgb(222, 230, 235);
   }
 
   h2 {
@@ -27,7 +27,7 @@ body {
     margin-bottom: 5px;
     padding: 1px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(222, 230, 235);
   }
   p {
     font-family: 'Open Sans', sans-serif;
@@ -36,10 +36,10 @@ body {
     margin-top: 15px;
     margin-bottom: 0px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(222, 230, 235);
   }
   .login {
-    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(248, 239, 239, 0); 
     backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ body {
     margin: 50px auto;
     margin-top: 150px;
     max-width: 30%;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 20px;
   }
   .namesubmit {
     margin: 50px auto;

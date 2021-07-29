@@ -4,15 +4,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <h1>"{{ output_song }}" is a great choice!</h1>
+    <br>
+    <br>
     <h2>Here's your custom playlist.</h2>
     <br>
     <br>
     <table>
-            <h3>Track</h3>
         {% for index, row in recommended_song.iterrows() %}
         <tr>
             <td><p>{{ row['combined'] }}</p></td>
-            <td><a href="{{ row['url'] }}" class="myButton" name='listen'><i class="fa fa-play" style="color:white;"></i>  Listen Here</a></td>
+            <td><a href="{{ row['url'] }}" class="myButton" name='listen'><i class="fa fa-play" style="color:white;"></i></a></td>
         </tr>
         {% endfor %}
     </table>
