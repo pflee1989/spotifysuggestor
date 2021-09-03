@@ -1,5 +1,5 @@
 # spotify_suggester
-[Website](https://codasong.herokuapp.com)
+[Website](https://spotify-search-kareoke.herokuapp.com)
 
 ## Description
 This app is a practice of using vectorized analysis to recommend songs per spotify. We appreciate all the feedback. 

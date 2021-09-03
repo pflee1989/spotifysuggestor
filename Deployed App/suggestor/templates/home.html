@@ -1,0 +1,17 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/entry.css') }}"/>
+</head>
+
+  <div class="login">
+            <h1>Welcome to Kareoke Suggestor!</h1>
+            <h2>Have a Song in Mind?</h2>
+              <form id='namesubmit' action="/" method="post">
+                <input autocomplete="off" autofocus name="name" placeholder="What Is Your Name?" type="text"></input>
+                <input name='submit' type="submit"></input>
+              </form>
+  </div>
+</html>

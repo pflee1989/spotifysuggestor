@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block body %}
+<div>
+    <h1>Our App</h1>
+    <p>Our project is based on the most recent <a href="https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks">Kaggle dataset</a>.</p>
+    <h2><u>Input</u></h2>
+    <p>Our input is a song selected from a list. Our model analyzes the song based on these categories:</p>
+        <p>acousticness, danceability, energy, explicitness</p>
+        <p>instrumentalness, liveliness, key, loudness</p>
+        <p>mode, popularity, speechiness, tempo, valence</p>
+    <h2><u>Output</u></h2>
+    <p>We try our best to cluster the songs that you might like together. Hope you find them to your liking.</p>
+</div>
+<div>
+    <h1>Our team</h1>
+        <div data-wow-duration="400ms" data-wow-delay="0ms">
+        <div><img src="static/images/Trevor.jpg" class="headshot" alt=""></div>
+            <h3>Trevor Dewalt</h3>
+            <p><a href="https://github.com/TrevorDewalt"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/trevor-d-45304b26/"><i class="fa fa-linkedin"></i></a></p>
+        </div>
+
+        <div data-wow-duration="400ms" data-wow-delay="0ms">
+        <div><img src="static/images/Phil.JPG" class="headshot" alt=""></div>
+            <h3>Philip F. Lee</h3>
+            <p><a href="https://github.com/pflee1989/spotifysuggestor"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/pflee/"><i class="fa fa-linkedin"></i></a></p>
+         </div>
+
+        <div data-wow-duration="400ms" data-wow-delay="0ms">    
+        <div><img src="static/images/Jon.jpg" class="headshot" alt=""></div>
+            <h3>Jon Wright</h3>
+            <p><a href="https://github.com/jon-wright-b"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wrightjonb/"><i class="fa fa-linkedin"></i></a></p> 
+        
+        <div data-wow-duration="400ms" data-wow-delay="0ms">
+        <div><img src="static/images/Joel.jpg" class="headshot" alt=""></div>
+        <h3>Joel Hoover</h3>
+            <p><a href="https://github.com/jihoover77"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/joelhoover77/"><i class="fa fa-linkedin"></i></a></p> 
+    
+
+    &copy; 2021 Spotify Suggestor
+</div>
+{% endblock %}
